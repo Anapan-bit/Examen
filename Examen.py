@@ -104,7 +104,7 @@ def reporte_sueldos():
             sueldo_liquido = sueldo - descuento_salud - descuento_afp
             writer.writerow([trabajadores[i], sueldo, descuento_salud, descuento_afp, sueldo_liquido])
             print(f"{trabajadores[i]} | ${sueldo} | ${descuento_salud:.0f} | ${descuento_afp:.0f} | ${sueldo_liquido:.0f}")
-    print("Datos de sueldos guardados")
+    print("Datos de sueldos guardados.")
 
 #Salir!
 def salir_programa():
